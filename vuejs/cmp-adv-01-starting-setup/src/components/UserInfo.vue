@@ -8,7 +8,7 @@
   </section>
 </template>
 
-<script>
+<script scoped>
 export default {
   props: ['fullName', 'infoText', 'role'],
 };
