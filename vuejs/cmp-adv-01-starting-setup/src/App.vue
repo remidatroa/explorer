@@ -10,6 +10,7 @@
     <course-goals>
       <template #default="slotProps">
         <h2>{{slotProps.item}}</h2>
+        <p>{{slotProps['another-prop']}}</p>
       </template>
     </course-goals>
   </div>
@@ -28,6 +29,7 @@
       UserInfo,
       CourseGoals
     },
+    
   data() {
     return {
       activeUser: {
