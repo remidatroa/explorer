@@ -6,18 +6,14 @@
         <base-badge :type="role" :caption="role.toUpperCase()"></base-badge>
       </template>
       <template #default>
-      <p>{{ infoText }} bro</p>
+        <p>{{ infoText }}</p>
       </template>
     </base-card>
   </section>
 </template>
 
-<script scoped>
+<script>
 export default {
   props: ['fullName', 'infoText', 'role'],
 };
 </script>
-
-<style>
-
-</style>

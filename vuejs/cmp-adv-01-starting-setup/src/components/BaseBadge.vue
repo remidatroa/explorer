@@ -2,7 +2,7 @@
   <span class="badge" :class="classes">{{ caption }}</span>
 </template>
 
-<script scoped>
+<script>
 export default {
   props: ['type', 'caption'],
   computed: {
@@ -12,11 +12,11 @@ export default {
         'badge--author': this.type === 'author',
       };
     },
-  },
+  }
 };
 </script>
 
-<style>
+<style scoped>
 .badge {
   display: inline-block;
   padding: 0.5rem 1rem;
