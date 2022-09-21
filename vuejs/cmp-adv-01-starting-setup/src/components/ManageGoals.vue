@@ -1,5 +1,5 @@
 <template>
-    <div>
+   
         <h2>Manage goals</h2>
         <input type="text" ref="goal">
         <button @click="setGoal"> Set Goal</button>
@@ -10,7 +10,7 @@
                 <button @click="confirmError">OKAY</button>
             </error-alert>
         </teleport>
-    </div>
+    
 </template>
 <script>
     import ErrorAlert from './ErrorAlert.vue';
